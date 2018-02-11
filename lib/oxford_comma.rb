@@ -8,3 +8,4 @@ elsif array.size > 2
 else
   array.join
 end
+end
