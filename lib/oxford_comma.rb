@@ -6,6 +6,6 @@ elsif array.size > 2
     new_list = array.join(", ")
   new_list << ", and #{last_word}"
 else
-  array.join
-end
+    array.join
+  end
 end
