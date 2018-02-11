@@ -4,4 +4,7 @@ def oxford_comma(array)
 elsif array.size > 2
   last_fruit = array.pop
     new_list = array.join(", ")
+  new_list << ", and #{last_word}"
+else
+  array.join
 end
